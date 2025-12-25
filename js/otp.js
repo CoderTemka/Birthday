@@ -42,7 +42,7 @@ function verifyOTP() {
 
   if (input == otp) {
     // ✅ SUCCESS → next page
-    window.location.href = "instruction.html";
+    window.location.href = "2.html";
   } else {
     alert("Wrong code ❌");
   }
